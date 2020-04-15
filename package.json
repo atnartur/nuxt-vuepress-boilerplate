@@ -5,13 +5,17 @@
   "author": "atnartur",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
+    "dev": "cross-env NODE_ENV=development node server/index.js --watch server",
+    "build": "nuxt build && npm run vuepress-build",
+    "vuepress-build": "vuepress build help",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vuepress": "^1.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
 }
