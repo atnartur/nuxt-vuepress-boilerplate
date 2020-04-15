@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-vuepress-boilterplate",
+  "version": "1.0.0",
+  "description": "Nuxt + VuePress boilterplate",
+  "author": "atnartur",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
