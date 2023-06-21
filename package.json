@@ -12,7 +12,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^3.4.3",
     "vuepress": "^1.4.1"
   },
   "devDependencies": {
